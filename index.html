@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h2 id="heading" style="text-align: center;">Question Answers</h2>
+        <div class="container">
+            <h3 id="ques" class="question">Question</h3>
+            <div class="ans">
+                <button onclick="correctAnswer(this.textContent)" class="allAns">ANswer 1</button>
+                <button onclick="correctAnswer(this.textContent)" class="allAns">ANswer 2</button>
+                <button onclick="correctAnswer(this.textContent)" class="allAns">ANswer 3</button>
+                <button onclick="correctAnswer(this.textContent)" class="allAns">ANswer 4</button>
+                <button onclick="nextQues()" class="next">Next</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <img id="gifImg" style="width: 100%; height: 100%;" src="https://gifsec.com/wp-content/uploads/2022/09/happy-new-year-gif-1.gif" alt=""> -->
+    <script src="index.js"></script>
+</body>
+    
+</html>
